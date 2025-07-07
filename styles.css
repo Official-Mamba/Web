@@ -1,14 +1,7 @@
 
-
 html {
   scroll-behavior: smooth;
 }
-
-
-
-
-
-
 
 
 
@@ -187,6 +180,8 @@ font-family:  Verdana, sans-serif;
 
 
 
+
+
 input[type=text], select {
  width: 100%;
  padding: 8px 92px;
@@ -218,7 +213,7 @@ font-weight: 800;
 
 
 input[type=submit]:hover {
-  background-color: #0fe420;
+  background-color: #0db01b;
  
   
  }
@@ -247,16 +242,7 @@ background-color: #b6b5b3d8;
 .mamba{
 
   width: 300px;
-  height: 31
-    
-    
-    
-    
-    
-    
-    
-    
-    0px;
+  height: 310px;
   border-radius: 10px 30px 10px 30px;
   border: 2px;
   padding: 10px;
@@ -340,12 +326,6 @@ h5:hover{
 
  background-color: #aeadad4b;
 }
-
-
-
-   
-
-
 
 
 
@@ -433,6 +413,7 @@ h5:hover{
 
    
 
+
 #msg{
   color:rgb(8, 15, 58);
   font-size: 14px;
@@ -443,6 +424,7 @@ border-radius: 5px;
 margin-top:4px;
 display:block;
 }
+
 
 
 
