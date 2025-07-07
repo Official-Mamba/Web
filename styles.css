@@ -187,18 +187,6 @@ font-family:  Verdana, sans-serif;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 input[type=text], select {
  width: 100%;
  padding: 8px 92px;
@@ -435,6 +423,17 @@ h5:hover{
 }
 
    
+
+#msg{
+  color:rgb(8, 15, 58);
+  font-size: 14px;
+  background-color: rgb(8, 177, 223);
+  width:45%;
+border-radius: 5px;
+  height: 15px;
+margin-top:4px;
+display:block;
+}
 
 
 
