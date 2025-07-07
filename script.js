@@ -61,21 +61,24 @@ function hideMenu(){
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycby3Gb2nLy10NzvOYKFKet0SDP2YLse5nLVlFN-ho33qd-xVXRkyvk3iAEdFYdqQ2Svv5A/exec'
-const form = document.forms['google-sheet']
 
-form.addEventListener('submit', e => {
-  e.preventDefault()
-  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => {
-      msg.innerHTML="Sent Successfully.."
-      setTimeout(function(){
-        msg.innerHTML=""
-      },2000)
-      form.reset()
-    })
-    
-    
-    .catch(error => console.error('Error!', error.message))
-})
+  
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyF4P533E2dbSM9IBnGNNjbZsNh5XukaLqUX-RqxxwwF-ekdyLl1_4FKZZPdDtN9oBU/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Sent Successfully.."
+        setTimeout(function(){
+          msg.innerHTML=""
+        },3000)
+        form.reset()
+      })
+      
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+ 
 
