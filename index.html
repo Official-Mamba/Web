@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,16 +106,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 <div class="ccc" >
  
      <a href="https://www.instagram.com/_mamba_101?igsh=MXVpbHA5dmYyMHg3OA=="> <img src="https://www.dropbox.com/scl/fi/4fljg0vmpaq59a7a7ce69/HD-wallpaper-instagram-red-logo-red-neon-lights-creative-red-abstract-background-instagram-logo-social-network-instagram-thumbnail.jpg?rlkey=pi4h0tvlww2l3p2uufwjxu3si&st=0t3fze81&dl=1"
@@ -131,6 +122,32 @@
 
 
        </a>
+
+
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyF4P533E2dbSM9IBnGNNjbZsNh5XukaLqUX-RqxxwwF-ekdyLl1_4FKZZPdDtN9oBU/exec'
+  const form = document.forms['google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Sent Successfully.."
+        setTimeout(function(){
+          msg.innerHTML=""
+        },3000)
+        form.reset()
+      })
+      
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+</script> 
+
+
+
+
        
   
      <div >
@@ -148,24 +165,6 @@
 
      </div>
     </div>
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
