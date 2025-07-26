@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,25 +8,174 @@
  <link rel="stylesheet" type="text/css" href="styles.css">
 
  <title>🐍Created By Mamba🐍</title> 
-
- <style type="text/css" 
-
- id="dcoder_stylesheet">.cont{
-
-  margin-top: 100px;
-}
+ <script src="script.js"></script>
 
 
+ <style>
 </style>
 
-
-
-
-
-
 </head>
-<body>
+
+  <body>
+
+
+    <style type="text/css" media="all">
+    
+    
+        .g1 {
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+    }
+    .best {
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+     
+      display: flex;
+      position:fixed;
+         
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.95);
+    }
+    .cir {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      border-radius: 50%;
+      border: 3px solid rgb(73,174,60);
+      animation: 5s first linear infinite;
+    }
+    .cir1 {
+      animation-delay: 0.5s;
+      border-color: #00f;
+    }
+    .cir2 {
+      animation-delay: 1s;
+      border-color: #57f5f2;
+    }
+    .cir3 {
+      animation-delay: 1.5s;
+      border-color: #73838b;
+    }
+    .cir4 {
+      animation-delay: 2s;
+      border-color: #0043ff;
+    }
+    .cir5 {
+      animation-delay: 2.5s;
+      border-color: #ff0027;
+    }
+    .cir6 {
+      animation-delay: 3s;
+      border-color: #3bff00;
+    }
+    .go {
+      width: 18px;
+      height: 18px;
+      position: relative;
+      border-radius: 9px;
+      animation: 6s going linear infinite;
+    }
+    .go1 {
+      background-color: #3bff00;
+    }
+    .go2 {
+      background-color: #0043ff;
+      animation-delay: 1s;
+    }
+    .go3 {
+      background-color: #ff0027;
+      animation-delay: 2s;
+    }
+    .go4 {
+      background-color: #73838b;
+      animation-delay: 3s;
+    }
+    .ld::before {
+      content: "Loading";
+      top: 100px;
+      color: #fff;
+      font-family: Times New Roman;
+      font-size: 30px;
+      font-weight: 850px;
+      position: relative;
+      text-transform: uppercase;
+      animation: s ld linear infinite;
+    }
+@keyframes ld {
+      0% {
+        content: "loading";
+      }
+      25% {
+        content: "loading.";
+      }
+      50% {
+        content: "loading..";
+      }
+      75% {
+        content: "loading...";
+      }
+    }
+@keyframes going {
+      0% {
+        top: 0;
+      }
+      9% {
+        top: -50px;
+        height: 40px;
+        transform: rotate(0deg);
+      }
+      15% {
+        transform: rotate(360deg);
+      }
+      24% {
+        top: -50px;
+        height: 40px;
+      }
+      30% {
+        top: 0;
+        height: 18px;
+        transform: rotate(360deg);
+      }
+    }
+@keyframes first {
+      50% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg) scale(0.3);
+      }
+    }
+   </style> 
+  
  
+
+ 
+ <div id="preloader"> 
+   <div class="best"> 
+    <div class="g1"> 
+     <div class="cir1 cir"></div> 
+     <div class="cir2 cir"></div> 
+     <div class="cir3 cir"></div> 
+     <div class="cir5 cir"></div> 
+     <div class="cir6 cir"></div> 
+     <div class="go1 go"></div> 
+     <div class="go2 go"></div> 
+     <div class="go3 go"></div> 
+     <div class="go4 go"></div> 
+    </div> 
+    <div class="g2"> 
+     <div class="ld"></div> 
+    </div> 
+   </div> 
+  </div> 
+
+
+
+
+
+
  <header>
   <nav>
     <ul>
@@ -39,26 +187,46 @@
   </nav>
  </header>
 
+ 
+
+
+<footer>
+<marquee behavior="" direction="">
+
+  🐍 direction="HD-wallpaper-instagram-red-logo-red-neon-lights-creative-red-abstract-background-instagram-logo-social-network-instagram-thumbnail" 🐍   
+  </marquee>
+</footer>
+
+
+
+
+<div class="pic">
+
+</div>
+
+
  <section id="home">
    <h1>Welcome to my Cybersecurity Portfolio</h1>
-   <p>Explore my projects and skills in the field of cybersecurity.</p>
+   <p>  Explore my projects and skills in the field of cybersecurity.</p>
  </section>
 
  <section id="about">
    <h2>About Me</h2>
-   <p>I am a passionate cybersecurity professional with expertise in network security, ethical hacking, and secure coding practices. I strive to protect digital assets and ensure a safe online environment.</p>
+  <p>I am a dedicated cybersecurity professional with hands-on experience in ethical hacking, network defense, and secure software development. My goal is to safeguard digital systems, identify vulnerabilities, and implement best practices to ensure robust security. I am committed to continuous learning and adapting to the evolving cybersecurity landscape.</p>
  </section>
 
  <section id="projects">
    <h2>Projects</h2>
    <div class="project">
      <h1>Secure Web Application</h3>
-     <p>A web application developed with secure coding practices to prevent common vulnerabilities such as SQL injection and cross-site scripting (XSS).</p>
+    <p>
+      A web application developed with secure coding practices to prevent common vulnerabilities such as SQL injection and cross-site scripting (XSS). The project features robust authentication, input validation, and encrypted data storage to ensure user safety. Security headers and HTTPS are enforced to protect data in transit. Regular vulnerability assessments and code reviews were conducted to maintain a high security standard. The application demonstrates my ability to implement industry best practices in web security, making it resilient against various attack vectors. Explore the project to see how security is integrated at every stage of development.
+    </p>
     
    </div>
    <div class="project">
      <h3>Network Penetration Testing</h3>
-     <p>Conducted penetration tests on corporate networks to identify vulnerabilities and provide recommendations for enhancing security measures.</p>
+    <p>Conducted penetration tests on corporate networks to identify vulnerabilities and provide recommendations for enhancing security measures. Utilized industry-standard tools and methodologies to simulate real-world attacks, assess network defenses, and uncover potential weaknesses. Delivered comprehensive reports detailing findings, risk assessments, and actionable remediation steps to strengthen the organization's security posture. Collaborated with IT teams to implement security improvements and verify the effectiveness of applied solutions. This project highlights my hands-on experience in ethical hacking, vulnerability assessment, and the ability to communicate technical results to both technical and non-technical stakeholders, ensuring continuous improvement of network security.</p>
      <a href="#" class="btn1">Go Home</a>
    </div>
  </section>
@@ -71,7 +239,10 @@
 
  <div class="btnn"> <button type="button" onclick="showMenu()">info
 </button> 
-</div> 
+</div>
+
+<!------------- popup menu ------------------->
+
 <div id="popup"> <i class="fa fa-check"></i> 
  <h6>Thank You For visiting</h6> 
  <p> This website is safe, We only save your Name,Email and Massege...
@@ -84,7 +255,7 @@
 
  <h4>For Contact </h4> 
 
-
+<!----------------- contact form --------------->
 
 <section id="contact">
 
@@ -105,25 +276,63 @@
 
 
 
+<!----------------- social media links --------------->
 
 <div class="ccc" >
- 
-     <a href="https://www.instagram.com/_mamba_101?igsh=MXVpbHA5dmYyMHg3OA=="> <img src="https://www.dropbox.com/scl/fi/4fljg0vmpaq59a7a7ce69/HD-wallpaper-instagram-red-logo-red-neon-lights-creative-red-abstract-background-instagram-logo-social-network-instagram-thumbnail.jpg?rlkey=pi4h0tvlww2l3p2uufwjxu3si&st=0t3fze81&dl=1"
+     <a href="https://www.instagram.com/_mamba_101?igsh=MXVpbHA5dmYyMHg3OA=="> <img src="https://www.dropbox.com/scl/fi/2q1x4j3k6y5b0v7m8z9d1/instagram-min.webp?rlkey=2g0f3w4c5h6l7j8k9l0m&dl=1" 
       style="
-     
-      padding: 1px;
-       width:40px;
-       height:40px; 
-       margin-left: -15%;
-       border-radius: 50%;
-       box-shadow:-3px -2px 9px 1px  #ff0059;  "
-      
-      >
+        padding: 1px;
+        width:40px;
+        height:40px; 
+        margin-left: 10%;
+        border-radius: 50%;
+        box-shadow:-3px -2px 9px 1px  #ff0059; ">
 
 
        </a>
 
+     <div >
+   <a href="https://telegram.me/X_mamba_101"><img src="https://www.dropbox.com/scl/fi/v4rfpw9ogqfdajpeijlfx/telegram-min.webp?rlkey=ekibyhcry3g460lvd7cm68ixg&st=aphbqm8h&dl=1" 
+    style="
+     
+     padding: 1px;
+     margin-left: 55%;
+      width:40px;
+      height:40px; 
+      border-radius: 50%;
+      box-shadow:-3px -2px 9px 1px  #1d61ff;  " >
+  
+  </a>
 
+
+     </div>
+    </div>
+
+
+
+
+ <script src="script.js"></script>
+
+
+<!-- Footer Section -->
+
+ <h5> Copyright 2021 By Mamba</h5>
+
+
+   <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display="none";
+    
+    
+     })
+  
+    
+</script>
+
+
+
+  
 
   <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyF4P533E2dbSM9IBnGNNjbZsNh5XukaLqUX-RqxxwwF-ekdyLl1_4FKZZPdDtN9oBU/exec'
@@ -147,35 +356,6 @@
 
 
 
-
-       
-  
-     <div >
-   <a href="https://telegram.me/X_mamba_101"><img src="https://www.dropbox.com/scl/fi/v4rfpw9ogqfdajpeijlfx/telegram-min.webp?rlkey=ekibyhcry3g460lvd7cm68ixg&st=aphbqm8h&dl=1" 
-    style="
-     padding: 1px;
-     margin-left: 55%;
-      width:40px;
-      height:40px; 
-      border-radius: 50%;
-      box-shadow:-3px -2px 9px 1px  #1d61ff;  " >
-  
-  </a>
-
-
-     </div>
-    </div>
-
-
-
- <script src="script.js"></script>
-
-
-
-
- <h5> Copyright 2021 By Mamba</h5>
-
-
-
 </body>
 </html>
+
